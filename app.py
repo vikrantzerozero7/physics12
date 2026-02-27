@@ -17,7 +17,7 @@ LANGUAGES = {
 # NOTE: Paste your PHYSICS_CONFIG content here
 PHYSICS_CONFIG = {
     "title": {
-        "english": "PHYSICS",
+        "english": "PHYSICS12",
         "hindi": "भौतिक विज्ञान"
     },
     "chapters": [
