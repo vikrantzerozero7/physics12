@@ -1051,7 +1051,952 @@ PHYSICS_CONFIG = {
                     ]
                 }
             ]
+        },
+
+        {
+            "id": "chapter9",
+            "display_name": {
+                "english": "CHAPTER 9: RAY OPTICS AND OPTICAL INSTRUMENTS",
+                "hindi": "अध्याय 9: किरण प्रकाशिकी एवं प्रकाशिक यंत्र"
+            },
+            "color": "#FF9933",
+            "topics": [
+                {
+                    "id": "topic9_1",
+                    "display_name": {
+                        "english": "REFLECTION BY SPHERICAL MIRRORS",
+                        "hindi": "गोलीय दर्पणों द्वारा परावर्तन"
+                    },
+                    "article_range": "Sections 9.2",
+                    "concepts": [
+                        {
+                            "id": "concept9_1_1",
+                            "display_name": {
+                                "english": "Sign Convention",
+                                "hindi": "चिह्न परिपाटी"
+                            },
+                            "description": {
+                                "english": "• Distances measured from pole (P)\n• Direction of incident light: +ve\n• Opposite to incident light: -ve\n• Heights above axis: +ve\n• Heights below axis: -ve\n• Focal length (f): Concave (-), Convex (+)",
+                                "hindi": "• दूरियाँ ध्रुव (P) से मापी जाती हैं\n• आपतित प्रकाश की दिशा: +ve\n• आपतित प्रकाश के विपरीत: -ve\n• अक्ष के ऊपर ऊँचाई: +ve\n• अक्ष के नीचे ऊँचाई: -ve\n• फोकस दूरी (f): अवतल (-), उत्तल (+)"
+                            }
+                        },
+                        {
+                            "id": "concept9_1_2",
+                            "display_name": {
+                                "english": "Mirror Formula",
+                                "hindi": "दर्पण सूत्र"
+                            },
+                            "description": {
+                                "english": "1/v + 1/u = 1/f\nwhere:\nu = object distance\nv = image distance\nf = focal length\nf = R/2 (R = radius of curvature)",
+                                "hindi": "1/v + 1/u = 1/f\nजहाँ:\nu = वस्तु दूरी\nv = प्रतिबिंब दूरी\nf = फोकस दूरी\nf = R/2 (R = वक्रता त्रिज्या)"
+                            }
+                        },
+                        {
+                            "id": "concept9_1_3",
+                            "display_name": {
+                                "english": "Magnification (m)",
+                                "hindi": "आवर्धन (m)"
+                            },
+                            "description": {
+                                "english": "m = h'/h = -v/u\n• m > 1: Enlarged image\n• m < 1: Diminished image\n• m positive: Virtual, erect image\n• m negative: Real, inverted image",
+                                "hindi": "m = h'/h = -v/u\n• m > 1: बड़ा प्रतिबिंब\n• m < 1: छोटा प्रतिबिंब\n• m धनात्मक: आभासी, सीधा प्रतिबिंब\n• m ऋणात्मक: वास्तविक, उल्टा प्रतिबिंब"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "topic9_2",
+                    "display_name": {
+                        "english": "REFRACTION",
+                        "hindi": "अपवर्तन"
+                    },
+                    "article_range": "Sections 9.3-9.4",
+                    "concepts": [
+                        {
+                            "id": "concept9_2_1",
+                            "display_name": {
+                                "english": "Snell's Law",
+                                "hindi": "स्नेल का नियम"
+                            },
+                            "description": {
+                                "english": "n₁ sin i = n₂ sin r\nRefractive index: n = c/v\nRelative refractive index: n₂₁ = n₂/n₁ = v₁/v₂",
+                                "hindi": "n₁ sin i = n₂ sin r\nअपवर्तनांक: n = c/v\nआपेक्षिक अपवर्तनांक: n₂₁ = n₂/n₁ = v₁/v₂"
+                            }
+                        },
+                        {
+                            "id": "concept9_2_2",
+                            "display_name": {
+                                "english": "Total Internal Reflection",
+                                "hindi": "पूर्ण आंतरिक परावर्तन"
+                            },
+                            "description": {
+                                "english": "Critical angle: sin i_c = n₂/n₁ (n₁ > n₂)\nFor i > i_c, TIR occurs\nApplications: Optical fibres, prisms\nDiamond's sparkle due to TIR",
+                                "hindi": "क्रांतिक कोण: sin i_c = n₂/n₁ (n₁ > n₂)\ni > i_c के लिए, पूर्ण आंतरिक परावर्तन\nअनुप्रयोग: प्रकाशित तंतु, प्रिज्म\nहीरे की चमक पूर्ण आंतरिक परावर्तन के कारण"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "topic9_3",
+                    "display_name": {
+                        "english": "REFRACTION BY LENSES",
+                        "hindi": "लेंसों द्वारा अपवर्तन"
+                    },
+                    "article_range": "Sections 9.5",
+                    "concepts": [
+                        {
+                            "id": "concept9_3_1",
+                            "display_name": {
+                                "english": "Lens Maker's Formula",
+                                "hindi": "लेंस निर्माता सूत्र"
+                            },
+                            "description": {
+                                "english": "1/f = (n₂₁ - 1)(1/R₁ - 1/R₂)\nwhere:\nn₂₁ = refractive index of lens material w.r.t. medium\nR₁, R₂ = radii of curvature",
+                                "hindi": "1/f = (n₂₁ - 1)(1/R₁ - 1/R₂)\nजहाँ:\nn₂₁ = माध्यम के सापेक्ष लेंस पदार्थ का अपवर्तनांक\nR₁, R₂ = वक्रता त्रिज्याएँ"
+                            }
+                        },
+                        {
+                            "id": "concept9_3_2",
+                            "display_name": {
+                                "english": "Lens Formula",
+                                "hindi": "लेंस सूत्र"
+                            },
+                            "description": {
+                                "english": "1/v - 1/u = 1/f\nMagnification: m = v/u\nPower of lens: P = 1/f (in metres)\nUnit: Dioptre (D)",
+                                "hindi": "1/v - 1/u = 1/f\nआवर्धन: m = v/u\nलेंस की क्षमता: P = 1/f (मीटर में)\nमात्रक: डाइऑप्टर (D)"
+                            }
+                        },
+                        {
+                            "id": "concept9_3_3",
+                            "display_name": {
+                                "english": "Combination of Lenses",
+                                "hindi": "लेंसों का संयोजन"
+                            },
+                            "description": {
+                                "english": "For lenses in contact:\n1/F = 1/f₁ + 1/f₂ + 1/f₃ + ...\nP = P₁ + P₂ + P₃ + ...",
+                                "hindi": "संपर्क में रखे लेंसों के लिए:\n1/F = 1/f₁ + 1/f₂ + 1/f₃ + ...\nP = P₁ + P₂ + P₃ + ..."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "topic9_4",
+                    "display_name": {
+                        "english": "REFRACTION THROUGH PRISM",
+                        "hindi": "प्रिज्म से अपवर्तन"
+                    },
+                    "article_range": "Section 9.6",
+                    "concepts": [
+                        {
+                            "id": "concept9_4_1",
+                            "display_name": {
+                                "english": "Prism Formula",
+                                "hindi": "प्रिज्म सूत्र"
+                            },
+                            "description": {
+                                "english": "δ = i + e - A\nwhere:\nδ = angle of deviation\ni = angle of incidence\ne = angle of emergence\nA = angle of prism\nr₁ + r₂ = A",
+                                "hindi": "δ = i + e - A\nजहाँ:\nδ = विचलन कोण\ni = आपतन कोण\ne = निर्गमन कोण\nA = प्रिज्म कोण\nr₁ + r₂ = A"
+                            }
+                        },
+                        {
+                            "id": "concept9_4_2",
+                            "display_name": {
+                                "english": "Minimum Deviation",
+                                "hindi": "न्यूनतम विचलन"
+                            },
+                            "description": {
+                                "english": "At minimum deviation (δ_m):\ni = e, r₁ = r₂ = A/2\nRefractive index:\nn = sin[(A + δ_m)/2] / sin(A/2)\nFor thin prism: δ_m = (n-1)A",
+                                "hindi": "न्यूनतम विचलन (δ_m) पर:\ni = e, r₁ = r₂ = A/2\nअपवर्तनांक:\nn = sin[(A + δ_m)/2] / sin(A/2)\nपतले प्रिज्म के लिए: δ_m = (n-1)A"
+                            }
+                        },
+                        {
+                            "id": "concept9_4_3",
+                            "display_name": {
+                                "english": "Dispersion",
+                                "hindi": "वर्ण-विक्षेपण"
+                            },
+                            "description": {
+                                "english": "Splitting of white light into VIBGYOR\nAngular dispersion = δ_v - δ_r\nDispersive power = (δ_v - δ_r)/δ_y\nCause: Different n for different colours",
+                                "hindi": "श्वेत प्रकाश का VIBGYOR रंगों में विभाजन\nकोणीय वर्ण-विक्षेपण = δ_v - δ_r\nवर्ण-विक्षेपण क्षमता = (δ_v - δ_r)/δ_y\nकारण: विभिन्न रंगों के लिए n भिन्न"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "topic9_5",
+                    "display_name": {
+                        "english": "OPTICAL INSTRUMENTS",
+                        "hindi": "प्रकाशिक यंत्र"
+                    },
+                    "article_range": "Section 9.7",
+                    "concepts": [
+                        {
+                            "id": "concept9_5_1",
+                            "display_name": {
+                                "english": "Simple Microscope",
+                                "hindi": "सरल सूक्ष्मदर्शी"
+                            },
+                            "description": {
+                                "english": "Magnifying power:\n• Image at near point: m = 1 + D/f\n• Image at infinity: m = D/f\nwhere D = 25 cm (least distance of distinct vision)",
+                                "hindi": "आवर्धन क्षमता:\n• निकट बिंदु पर प्रतिबिंब: m = 1 + D/f\n• अनंत पर प्रतिबिंब: m = D/f\nजहाँ D = 25 सेमी (स्पष्ट दर्शन की न्यूनतम दूरी)"
+                            }
+                        },
+                        {
+                            "id": "concept9_5_2",
+                            "display_name": {
+                                "english": "Compound Microscope",
+                                "hindi": "संयुक्त सूक्ष्मदर्शी"
+                            },
+                            "description": {
+                                "english": "Total magnification: m = m₀ × m_e\nm₀ = v₀/|u₀| (objective)\nm_e = 1 + D/f_e (eyepiece)\nApprox: m = (L/f₀) × (D/f_e)\nL = tube length",
+                                "hindi": "कुल आवर्धन: m = m₀ × m_e\nm₀ = v₀/|u₀| (अभिदृश्यक)\nm_e = 1 + D/f_e (नेत्रिका)\nलगभग: m = (L/f₀) × (D/f_e)\nL = नलिका की लंबाई"
+                            }
+                        },
+                        {
+                            "id": "concept9_5_3",
+                            "display_name": {
+                                "english": "Astronomical Telescope",
+                                "hindi": "खगोलीय दूरदर्शी"
+                            },
+                            "description": {
+                                "english": "Magnifying power:\n• Normal adjustment: m = -f₀/f_e\n• Image at near point: m = -(f₀/f_e)(1 + f_e/D)\nLength of telescope = f₀ + f_e\nReflecting telescopes use mirrors",
+                                "hindi": "आवर्धन क्षमता:\n• सामान्य समायोजन: m = -f₀/f_e\n• निकट बिंदु पर प्रतिबिंब: m = -(f₀/f_e)(1 + f_e/D)\nदूरदर्शी की लंबाई = f₀ + f_e\nपरावर्ती दूरदर्शी दर्पणों का उपयोग करते हैं"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        # ============================================
+        # CHAPTER 10: WAVE OPTICS
+        # ============================================
+        {
+            "id": "chapter10",
+            "display_name": {
+                "english": "CHAPTER 10: WAVE OPTICS",
+                "hindi": "अध्याय 10: तरंग प्रकाशिकी"
+            },
+            "color": "#0066CC",
+            "topics": [
+                {
+                    "id": "topic10_1",
+                    "display_name": {
+                        "english": "HUYGENS PRINCIPLE",
+                        "hindi": "हाइगेंस का सिद्धांत"
+                    },
+                    "article_range": "Sections 10.2-10.3",
+                    "concepts": [
+                        {
+                            "id": "concept10_1_1",
+                            "display_name": {
+                                "english": "Wavefront and Huygens Principle",
+                                "hindi": "तरंगाग्र एवं हाइगेंस सिद्धांत"
+                            },
+                            "description": {
+                                "english": "Wavefront: Locus of points in same phase\nHuygens Principle: Each point on wavefront acts as secondary source\nNew wavefront = envelope of secondary wavelets",
+                                "hindi": "तरंगाग्र: समान कला वाले बिंदुओं का बिंदुपथ\nहाइगेंस सिद्धांत: तरंगाग्र पर प्रत्येक बिंदु द्वितीयक स्रोत\nनया तरंगाग्र = द्वितीयक तरंगिकाओं का आवरण"
+                            }
+                        },
+                        {
+                            "id": "concept10_1_2",
+                            "display_name": {
+                                "english": "Reflection using Huygens Principle",
+                                "hindi": "हाइगेंस सिद्धांत से परावर्तन"
+                            },
+                            "description": {
+                                "english": "Laws of reflection derived:\nAngle of incidence = Angle of reflection\nIncident, reflected, normal in same plane",
+                                "hindi": "परावर्तन के नियम व्युत्पन्न:\nआपतन कोण = परावर्तन कोण\nआपतित, परावर्तित किरण एवं अभिलंब एक ही तल में"
+                            }
+                        },
+                        {
+                            "id": "concept10_1_3",
+                            "display_name": {
+                                "english": "Refraction using Huygens Principle",
+                                "hindi": "हाइगेंस सिद्धांत से अपवर्तन"
+                            },
+                            "description": {
+                                "english": "Snell's law derived: sin i/sin r = v₁/v₂ = n₂/n₁\nWave theory predicts v₂ < v₁ when ray bends towards normal\nSpeed of light is less in denser medium",
+                                "hindi": "स्नेल का नियम व्युत्पन्न: sin i/sin r = v₁/v₂ = n₂/n₁\nतरंग सिद्धांत भविष्यवाणी: जब किरण अभिलंब की ओर झुकती है तो v₂ < v₁\nसघन माध्यम में प्रकाश की चाल कम होती है"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "topic10_2",
+                    "display_name": {
+                        "english": "INTERFERENCE",
+                        "hindi": "व्यतिकरण"
+                    },
+                    "article_range": "Sections 10.4-10.5",
+                    "concepts": [
+                        {
+                            "id": "concept10_2_1",
+                            "display_name": {
+                                "english": "Coherent Sources",
+                                "hindi": "संबद्ध स्रोत"
+                            },
+                            "description": {
+                                "english": "Sources with constant phase difference\nProduced by division of wavefront (Young's double slit)\nIncoherent sources: Random phase, no stable pattern",
+                                "hindi": "स्थिर कला अंतर वाले स्रोत\nतरंगाग्र विभाजन से उत्पन्न (यंग का द्वि-झिर्री प्रयोग)\nअसंबद्ध स्रोत: यादृच्छिक कला, कोई स्थिर प्रतिरूप नहीं"
+                            }
+                        },
+                        {
+                            "id": "concept10_2_2",
+                            "display_name": {
+                                "english": "Young's Double Slit Experiment",
+                                "hindi": "यंग का द्वि-झिर्री प्रयोग"
+                            },
+                            "description": {
+                                "english": "Path difference: Δx = yd/D\nFor maxima: Δx = nλ (n = 0,1,2...)\nFor minima: Δx = (2n-1)λ/2\nFringe width: β = λD/d\nIntensity: I = 4I₀ cos²(φ/2)",
+                                "hindi": "पथांतर: Δx = yd/D\nदीप्त फ्रिंज के लिए: Δx = nλ (n = 0,1,2...)\nअदीप्त फ्रिंज के लिए: Δx = (2n-1)λ/2\nफ्रिंज चौड़ाई: β = λD/d\nतीव्रता: I = 4I₀ cos²(φ/2)"
+                            }
+                        },
+                        {
+                            "id": "concept10_2_3",
+                            "display_name": {
+                                "english": "Conditions for Interference",
+                                "hindi": "व्यतिकरण की शर्तें"
+                            },
+                            "description": {
+                                "english": "• Sources must be coherent\n• Same frequency and wavelength\n• Amplitudes should be nearly equal\n• Path difference should not exceed coherence length",
+                                "hindi": "• स्रोत संबद्ध होने चाहिए\n• समान आवृत्ति एवं तरंगदैर्घ्य\n• आयाम लगभग समान होने चाहिए\n• पथांतर संबद्धता लंबाई से अधिक न हो"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "topic10_3",
+                    "display_name": {
+                        "english": "DIFFRACTION",
+                        "hindi": "विवर्तन"
+                    },
+                    "article_range": "Section 10.6",
+                    "concepts": [
+                        {
+                            "id": "concept10_3_1",
+                            "display_name": {
+                                "english": "Single Slit Diffraction",
+                                "hindi": "एकल झिर्री विवर्तन"
+                            },
+                            "description": {
+                                "english": "For minima: a sinθ = nλ (n = ±1, ±2...)\nCentral maximum: at θ = 0\nWidth of central max = 2λD/a\nIntensity falls rapidly for secondary maxima",
+                                "hindi": "अदीप्त के लिए: a sinθ = nλ (n = ±1, ±2...)\nकेंद्रीय दीप्त: θ = 0 पर\nकेंद्रीय दीप्त की चौड़ाई = 2λD/a\nद्वितीयक दीप्तों की तीव्रता तेजी से घटती है"
+                            }
+                        },
+                        {
+                            "id": "concept10_3_2",
+                            "display_name": {
+                                "english": "Diffraction vs Interference",
+                                "hindi": "विवर्तन बनाम व्यतिकरण"
+                            },
+                            "description": {
+                                "english": "Interference: Superposition of few waves\nDiffraction: Superposition of continuous waves\nBoth redistribute energy, obey conservation",
+                                "hindi": "व्यतिकरण: कुछ तरंगों का अध्यारोपण\nविवर्तन: सतत तरंगों का अध्यारोपण\nदोनों में ऊर्जा पुनर्वितरित होती है, संरक्षण का पालन"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "topic10_4",
+                    "display_name": {
+                        "english": "POLARISATION",
+                        "hindi": "ध्रुवण"
+                    },
+                    "article_range": "Section 10.7",
+                    "concepts": [
+                        {
+                            "id": "concept10_4_1",
+                            "display_name": {
+                                "english": "Polarisation of Light",
+                                "hindi": "प्रकाश का ध्रुवण"
+                            },
+                            "description": {
+                                "english": "Light waves are transverse\nUnpolarised light: E vector in all directions\nPolarised light: E vector in one direction\nOnly transverse waves can be polarised",
+                                "hindi": "प्रकाश तरंगें अनुप्रस्थ होती हैं\nअध्रुवित प्रकाश: E सदिश सभी दिशाओं में\nध्रुवित प्रकाश: E सदिश एक दिशा में\nकेवल अनुप्रस्थ तरंगें ही ध्रुवित हो सकती हैं"
+                            }
+                        },
+                        {
+                            "id": "concept10_4_2",
+                            "display_name": {
+                                "english": "Malus' Law",
+                                "hindi": "मैलस का नियम"
+                            },
+                            "description": {
+                                "english": "I = I₀ cos²θ\nwhere θ is angle between polariser and analyser\nWhen θ = 0°, I = I₀ (max)\nWhen θ = 90°, I = 0 (min)",
+                                "hindi": "I = I₀ cos²θ\nजहाँ θ ध्रुवक एवं विश्लेषक के मध्य कोण है\nθ = 0° पर, I = I₀ (अधिकतम)\nθ = 90° पर, I = 0 (न्यूनतम)"
+                            }
+                        },
+                        {
+                            "id": "concept10_4_3",
+                            "display_name": {
+                                "english": "Polarisation by Reflection",
+                                "hindi": "परावर्तन द्वारा ध्रुवण"
+                            },
+                            "description": {
+                                "english": "Brewster's Law: tan i_B = n\nAt Brewster angle, reflected light is completely polarised\nReflected and refracted rays are perpendicular\ni_B + r = 90°",
+                                "hindi": "बूस्टर का नियम: tan i_B = n\nबूस्टर कोण पर, परावर्तित प्रकाश पूर्णतः ध्रुवित होता है\nपरावर्तित एवं अपवर्तित किरणें लंबवत होती हैं\ni_B + r = 90°"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        # ============================================
+        # CHAPTER 11: DUAL NATURE OF RADIATION AND MATTER
+        # ============================================
+        {
+            "id": "chapter11",
+            "display_name": {
+                "english": "CHAPTER 11: DUAL NATURE OF RADIATION AND MATTER",
+                "hindi": "अध्याय 11: विकिरण तथा द्रव्य की द्वैत प्रकृति"
+            },
+            "color": "#138808",
+            "topics": [
+                {
+                    "id": "topic11_1",
+                    "display_name": {
+                        "english": "PHOTOELECTRIC EFFECT",
+                        "hindi": "प्रकाश विद्युत प्रभाव"
+                    },
+                    "article_range": "Sections 11.2-11.4",
+                    "concepts": [
+                        {
+                            "id": "concept11_1_1",
+                            "display_name": {
+                                "english": "Electron Emission",
+                                "hindi": "इलेक्ट्रॉन उत्सर्जन"
+                            },
+                            "description": {
+                                "english": "Work function (φ₀): Min energy to eject electron\nThermionic emission: Heating\nField emission: Strong electric field\nPhotoelectric emission: Light of suitable frequency",
+                                "hindi": "कार्य फलन (φ₀): इलेक्ट्रॉन उत्सर्जन के लिए न्यूनतम ऊर्जा\nतापायनिक उत्सर्जन: तापन\nक्षेत्र उत्सर्जन: प्रबल विद्युत क्षेत्र\nप्रकाश विद्युत उत्सर्जन: उपयुक्त आवृत्ति का प्रकाश"
+                            }
+                        },
+                        {
+                            "id": "concept11_1_2",
+                            "display_name": {
+                                "english": "Experimental Observations",
+                                "hindi": "प्रायोगिक प्रेक्षण"
+                            },
+                            "description": {
+                                "english": "• No emission below threshold frequency ν₀\n• K_max independent of intensity, depends on ν\n• Photocurrent ∝ intensity\n• Instantaneous emission (∼10⁻⁹ s)\nStopping potential V₀ = K_max/e",
+                                "hindi": "• देहली आवृत्ति ν₀ के नीचे कोई उत्सर्जन नहीं\n• K_max तीव्रता से स्वतंत्र, ν पर निर्भर\n• प्रकाश धारा ∝ तीव्रता\n• तात्कालिक उत्सर्जन (∼10⁻⁹ s)\nनिरोधी विभव V₀ = K_max/e"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "topic11_2",
+                    "display_name": {
+                        "english": "EINSTEIN'S PHOTOELECTRIC EQUATION",
+                        "hindi": "आइंस्टीन का प्रकाश विद्युत समीकरण"
+                    },
+                    "article_range": "Sections 11.5-11.7",
+                    "concepts": [
+                        {
+                            "id": "concept11_2_1",
+                            "display_name": {
+                                "english": "Photon Picture",
+                                "hindi": "फोटॉन चित्र"
+                            },
+                            "description": {
+                                "english": "Light consists of photons, each with energy E = hν\nPhoton momentum: p = h/λ = hν/c\nIntensity ∝ number of photons\nPhoton has zero rest mass",
+                                "hindi": "प्रकाश फोटॉनों से बना है, प्रत्येक की ऊर्जा E = hν\nफोटॉन संवेग: p = h/λ = hν/c\nतीव्रता ∝ फोटॉनों की संख्या\nफोटॉन का विराम द्रव्यमान शून्य"
+                            }
+                        },
+                        {
+                            "id": "concept11_2_2",
+                            "display_name": {
+                                "english": "Einstein's Equation",
+                                "hindi": "आइंस्टीन का समीकरण"
+                            },
+                            "description": {
+                                "english": "K_max = hν - φ₀\neV₀ = hν - φ₀\nThreshold frequency: ν₀ = φ₀/h\nSlope of V₀ vs ν graph = h/e\nh = 6.63 × 10⁻³⁴ Js",
+                                "hindi": "K_max = hν - φ₀\neV₀ = hν - φ₀\nदेहली आवृत्ति: ν₀ = φ₀/h\nV₀ बनाम ν ग्राफ की ढाल = h/e\nh = 6.63 × 10⁻³⁴ Js"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "topic11_3",
+                    "display_name": {
+                        "english": "WAVE NATURE OF MATTER",
+                        "hindi": "द्रव्य की तरंग प्रकृति"
+                    },
+                    "article_range": "Section 11.8",
+                    "concepts": [
+                        {
+                            "id": "concept11_3_1",
+                            "display_name": {
+                                "english": "de Broglie Hypothesis",
+                                "hindi": "डी ब्रोग्ली परिकल्पना"
+                            },
+                            "description": {
+                                "english": "λ = h/p = h/mv\nMatter waves associated with moving particles\nDual nature: Both particle and wave properties\nValid for all particles (electron, proton, etc.)",
+                                "hindi": "λ = h/p = h/mv\nगतिमान कणों से संबद्ध द्रव्य तरंगें\nद्वैत प्रकृति: कण एवं तरंग दोनों गुण\nसभी कणों के लिए मान्य (इलेक्ट्रॉन, प्रोटॉन, आदि)"
+                            }
+                        },
+                        {
+                            "id": "concept11_3_2",
+                            "display_name": {
+                                "english": "Davisson-Germer Experiment",
+                                "hindi": "डेविसन-जर्मर प्रयोग"
+                            },
+                            "description": {
+                                "english": "Confirmed wave nature of electrons\nElectron diffraction from Ni crystal\nVerified de Broglie relation\nWavelength matches λ = h/√(2meV)",
+                                "hindi": "इलेक्ट्रॉनों की तरंग प्रकृति की पुष्टि\nNi क्रिस्टल से इलेक्ट्रॉन विवर्तन\nडी ब्रोग्ली संबंध की पुष्टि\nतरंगदैर्घ्य λ = h/√(2meV) से मेल खाता है"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        # ============================================
+        # CHAPTER 12: ATOMS
+        # ============================================
+        {
+            "id": "chapter12",
+            "display_name": {
+                "english": "CHAPTER 12: ATOMS",
+                "hindi": "अध्याय 12: परमाणु"
+            },
+            "color": "#FFD700",
+            "topics": [
+                {
+                    "id": "topic12_1",
+                    "display_name": {
+                        "english": "RUTHERFORD'S NUCLEAR MODEL",
+                        "hindi": "रदरफोर्ड का नाभिकीय मॉडल"
+                    },
+                    "article_range": "Sections 12.2",
+                    "concepts": [
+                        {
+                            "id": "concept12_1_1",
+                            "display_name": {
+                                "english": "Alpha Particle Scattering",
+                                "hindi": "अल्फा कण प्रकीर्णन"
+                            },
+                            "description": {
+                                "english": "Most α particles pass through foil\nFew scatter by large angles\nNucleus: small, dense, positively charged\nSize of nucleus ∼ 10⁻¹⁴ to 10⁻¹⁵ m",
+                                "hindi": "अधिकांश α कण पन्नी से निकल जाते हैं\nकुछ बड़े कोणों पर प्रकीर्णित होते हैं\nनाभिक: छोटा, सघन, धनावेशित\nनाभिक का आकार ∼ 10⁻¹⁴ से 10⁻¹⁵ m"
+                            }
+                        },
+                        {
+                            "id": "concept12_1_2",
+                            "display_name": {
+                                "english": "Distance of Closest Approach",
+                                "hindi": "निकटतम पहुँच दूरी"
+                            },
+                            "description": {
+                                "english": "r₀ = (1/4πε₀) × (2Ze²)/(K)\nwhere K = initial KE of α particle\nAt r₀, KE = 0, total energy = PE\nGives upper limit of nuclear size",
+                                "hindi": "r₀ = (1/4πε₀) × (2Ze²)/(K)\nजहाँ K = α कण की प्रारंभिक गतिज ऊर्जा\nr₀ पर, KE = 0, कुल ऊर्जा = स्थितिज ऊर्जा\nनाभिकीय आकार की ऊपरी सीमा देता है"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "topic12_2",
+                    "display_name": {
+                        "english": "BOHR'S MODEL OF HYDROGEN ATOM",
+                        "hindi": "हाइड्रोजन परमाणु का बोर मॉडल"
+                    },
+                    "article_range": "Sections 12.4",
+                    "concepts": [
+                        {
+                            "id": "concept12_2_1",
+                            "display_name": {
+                                "english": "Bohr's Postulates",
+                                "hindi": "बोर के अभिगृहीत"
+                            },
+                            "description": {
+                                "english": "1. Electrons in stationary orbits (no radiation)\n2. Angular momentum quantisation: L = nh/2π\n3. Radiation during transition: hν = E_i - E_f",
+                                "hindi": "1. इलेक्ट्रॉन स्थिर कक्षाओं में (विकिरण नहीं)\n2. कोणीय संवेग क्वांटीकरण: L = nh/2π\n3. संक्रमण के दौरान विकिरण: hν = E_i - E_f"
+                            }
+                        },
+                        {
+                            "id": "concept12_2_2",
+                            "display_name": {
+                                "english": "Bohr's Radius and Energy",
+                                "hindi": "बोर त्रिज्या एवं ऊर्जा"
+                            },
+                            "description": {
+                                "english": "r_n = n² × a₀, where a₀ = 0.529 Å\nE_n = -13.6/n² eV\nv_n = (c/137) × (1/n)\nEnergy of ground state (n=1) = -13.6 eV",
+                                "hindi": "r_n = n² × a₀, जहाँ a₀ = 0.529 Å\nE_n = -13.6/n² eV\nv_n = (c/137) × (1/n)\nनिम्नतम ऊर्जा स्तर (n=1) की ऊर्जा = -13.6 eV"
+                            }
+                        },
+                        {
+                            "id": "concept12_2_3",
+                            "display_name": {
+                                "english": "Spectral Series of Hydrogen",
+                                "hindi": "हाइड्रोजन की स्पेक्ट्रमी श्रेणियाँ"
+                            },
+                            "description": {
+                                "english": "1/λ = R(1/n_f² - 1/n_i²), R = 1.097 × 10⁷ m⁻¹\nLyman: n_f = 1 (UV)\nBalmer: n_f = 2 (Visible)\nPaschen: n_f = 3 (IR)\nBrackett: n_f = 4 (IR)\nPfund: n_f = 5 (IR)",
+                                "hindi": "1/λ = R(1/n_f² - 1/n_i²), R = 1.097 × 10⁷ m⁻¹\nलाइमन: n_f = 1 (पराबैंगनी)\nबामर: n_f = 2 (दृश्य)\nपाश्चन: n_f = 3 (अवरक्त)\nब्रेकेट: n_f = 4 (अवरक्त)\nफुंड: n_f = 5 (अवरक्त)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "topic12_3",
+                    "display_name": {
+                        "english": "DE BROGLIE'S EXPLANATION",
+                        "hindi": "डी ब्रोग्ली की व्याख्या"
+                    },
+                    "article_range": "Section 12.6",
+                    "concepts": [
+                        {
+                            "id": "concept12_3_1",
+                            "display_name": {
+                                "english": "Wave Nature and Quantisation",
+                                "hindi": "तरंग प्रकृति एवं क्वांटीकरण"
+                            },
+                            "description": {
+                                "english": "Standing wave condition: 2πr_n = nλ\nλ = h/mv ⇒ mvr_n = nh/2π\nExplains Bohr's quantisation postulate\nElectron wave must fit exactly in orbit",
+                                "hindi": "अप्रगामी तरंग शर्त: 2πr_n = nλ\nλ = h/mv ⇒ mvr_n = nh/2π\nबोर के क्वांटीकरण अभिगृहीत की व्याख्या\nइलेक्ट्रॉन तरंग कक्षा में बिल्कुल फिट होनी चाहिए"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        # ============================================
+        # CHAPTER 13: NUCLEI
+        # ============================================
+        {
+            "id": "chapter13",
+            "display_name": {
+                "english": "CHAPTER 13: NUCLEI",
+                "hindi": "अध्याय 13: नाभिक"
+            },
+            "color": "#FF9933",
+            "topics": [
+                {
+                    "id": "topic13_1",
+                    "display_name": {
+                        "english": "NUCLEAR PROPERTIES",
+                        "hindi": "नाभिकीय गुण"
+                    },
+                    "article_range": "Sections 13.2-13.3",
+                    "concepts": [
+                        {
+                            "id": "concept13_1_1",
+                            "display_name": {
+                                "english": "Nuclear Composition",
+                                "hindi": "नाभिकीय संघटन"
+                            },
+                            "description": {
+                                "english": "Nucleus: Protons + Neutrons\nAtomic number Z = number of protons\nMass number A = Z + N (N = neutrons)\nIsotopes: Same Z, different A\nIsobars: Same A, different Z\nIsotones: Same N, different Z",
+                                "hindi": "नाभिक: प्रोटॉन + न्यूट्रॉन\nपरमाणु क्रमांक Z = प्रोटॉनों की संख्या\nद्रव्यमान संख्या A = Z + N (N = न्यूट्रॉन)\nसमस्थानिक: समान Z, भिन्न A\nसमभारिक: समान A, भिन्न Z\nसमन्यूट्रॉनिक: समान N, भिन्न Z"
+                            }
+                        },
+                        {
+                            "id": "concept13_1_2",
+                            "display_name": {
+                                "english": "Nuclear Size and Density",
+                                "hindi": "नाभिकीय आकार एवं घनत्व"
+                            },
+                            "description": {
+                                "english": "R = R₀A¹/³, R₀ = 1.2 × 10⁻¹⁵ m\nNuclear volume ∝ A\nNuclear density ≈ 2.3 × 10¹⁷ kg/m³\nIndependent of A (constant)",
+                                "hindi": "R = R₀A¹/³, R₀ = 1.2 × 10⁻¹⁵ m\nनाभिकीय आयतन ∝ A\nनाभिकीय घनत्व ≈ 2.3 × 10¹⁷ kg/m³\nA से स्वतंत्र (स्थिर)"
+                            }
+                        },
+                        {
+                            "id": "concept13_1_3",
+                            "display_name": {
+                                "english": "Atomic Mass Unit",
+                                "hindi": "परमाणु द्रव्यमान इकाई"
+                            },
+                            "description": {
+                                "english": "1 u = 1/12 mass of ¹²C atom\n1 u = 1.6605 × 10⁻²⁷ kg\nMass-energy equivalence: 1 u = 931.5 MeV/c²\nm_p = 1.00727 u, m_n = 1.00866 u",
+                                "hindi": "1 u = ¹²C परमाणु के द्रव्यमान का 1/12\n1 u = 1.6605 × 10⁻²⁷ kg\nद्रव्यमान-ऊर्जा तुल्यता: 1 u = 931.5 MeV/c²\nm_p = 1.00727 u, m_n = 1.00866 u"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "topic13_2",
+                    "display_name": {
+                        "english": "BINDING ENERGY",
+                        "hindi": "बंधन ऊर्जा"
+                    },
+                    "article_range": "Section 13.4",
+                    "concepts": [
+                        {
+                            "id": "concept13_2_1",
+                            "display_name": {
+                                "english": "Mass Defect and Binding Energy",
+                                "hindi": "द्रव्यमान क्षति एवं बंधन ऊर्जा"
+                            },
+                            "description": {
+                                "english": "Mass defect: Δm = [Zm_p + (A-Z)m_n] - M\nBinding energy: E_b = Δm × c²\nE_b = Δm (in u) × 931.5 MeV\nBinding energy per nucleon = E_b/A",
+                                "hindi": "द्रव्यमान क्षति: Δm = [Zm_p + (A-Z)m_n] - M\nबंधन ऊर्जा: E_b = Δm × c²\nE_b = Δm (u में) × 931.5 MeV\nप्रति न्यूक्लिऑन बंधन ऊर्जा = E_b/A"
+                            }
+                        },
+                        {
+                            "id": "concept13_2_2",
+                            "display_name": {
+                                "english": "Binding Energy Curve",
+                                "hindi": "बंधन ऊर्जा वक्र"
+                            },
+                            "description": {
+                                "english": "Max at A≈56 (Fe): ~8.8 MeV/nucleon\nLower for light and heavy nuclei\nFusion: Light nuclei combine (energy released)\nFission: Heavy nuclei split (energy released)",
+                                "hindi": "अधिकतम A≈56 (Fe) पर: ~8.8 MeV/न्यूक्लिऑन\nहल्के एवं भारी नाभिकों के लिए कम\nसंलयन: हल्के नाभिक संयुक्त होते हैं (ऊर्जा मुक्त)\nविखंडन: भारी नाभिक टूटते हैं (ऊर्जा मुक्त)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "topic13_3",
+                    "display_name": {
+                        "english": "RADIOACTIVITY",
+                        "hindi": "रेडियोधर्मिता"
+                    },
+                    "article_range": "Section 13.6",
+                    "concepts": [
+                        {
+                            "id": "concept13_3_1",
+                            "display_name": {
+                                "english": "Types of Decay",
+                                "hindi": "क्षय के प्रकार"
+                            },
+                            "description": {
+                                "english": "α-decay: ⁴₂He nucleus emitted\nβ⁻-decay: n → p + e⁻ + ν̄ (antineutrino)\nβ⁺-decay: p → n + e⁺ + ν (neutrino)\nγ-decay: High energy photons",
+                                "hindi": "α-क्षय: ⁴₂He नाभिक उत्सर्जित\nβ⁻-क्षय: n → p + e⁻ + ν̄ (प्रतिन्यूट्रिनो)\nβ⁺-क्षय: p → n + e⁺ + ν (न्यूट्रिनो)\nγ-क्षय: उच्च ऊर्जा फोटॉन"
+                            }
+                        },
+                        {
+                            "id": "concept13_3_2",
+                            "display_name": {
+                                "english": "Radioactive Decay Law",
+                                "hindi": "रेडियोधर्मी क्षय नियम"
+                            },
+                            "description": {
+                                "english": "dN/dt = -λN\nN = N₀e⁻λt\nHalf-life: T₁/₂ = ln2/λ = 0.693/λ\nMean life: τ = 1/λ = 1.44 T₁/₂\nActivity: R = λN = R₀e⁻λt",
+                                "hindi": "dN/dt = -λN\nN = N₀e⁻λt\nअर्धायु काल: T₁/₂ = ln2/λ = 0.693/λ\nमाध्य आयु: τ = 1/λ = 1.44 T₁/₂\nसक्रियता: R = λN = R₀e⁻λt"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "topic13_4",
+                    "display_name": {
+                        "english": "NUCLEAR ENERGY",
+                        "hindi": "नाभिकीय ऊर्जा"
+                    },
+                    "article_range": "Section 13.7",
+                    "concepts": [
+                        {
+                            "id": "concept13_4_1",
+                            "display_name": {
+                                "english": "Nuclear Fission",
+                                "hindi": "नाभिकीय विखंडन"
+                            },
+                            "description": {
+                                "english": "n + ²³⁵U → ¹⁴¹Ba + ⁹²Kr + 3n + 200 MeV\nChain reaction\nCritical mass\nControlled in nuclear reactors\nUncontrolled in atom bomb",
+                                "hindi": "n + ²³⁵U → ¹⁴¹Ba + ⁹²Kr + 3n + 200 MeV\nश्रृंखला अभिक्रिया\nक्रांतिक द्रव्यमान\nनाभिकीय रिएक्टरों में नियंत्रित\nपरमाणु बम में अनियंत्रित"
+                            }
+                        },
+                        {
+                            "id": "concept13_4_2",
+                            "display_name": {
+                                "english": "Nuclear Fusion",
+                                "hindi": "नाभिकीय संलयन"
+                            },
+                            "description": {
+                                "english": "Light nuclei combine to form heavier nucleus\nRequires high temperature (∼10⁷ K)\nSource of energy in stars (sun)\n4¹H → ⁴He + 2e⁺ + 2ν + 26.7 MeV\nTokamak: Fusion reactor research",
+                                "hindi": "हल्के नाभिक मिलकर भारी नाभिक बनाते हैं\nउच्च तापमान की आवश्यकता (∼10⁷ K)\nतारों में ऊर्जा का स्रोत (सूर्य)\n4¹H → ⁴He + 2e⁺ + 2ν + 26.7 MeV\nटोकामक: संलयन रिएक्टर अनुसंधान"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        # ============================================
+        # CHAPTER 14: SEMICONDUCTOR ELECTRONICS
+        # ============================================
+        {
+            "id": "chapter14",
+            "display_name": {
+                "english": "CHAPTER 14: SEMICONDUCTOR ELECTRONICS",
+                "hindi": "अध्याय 14: अर्धचालक इलेक्ट्रॉनिकी"
+            },
+            "color": "#0066CC",
+            "topics": [
+                {
+                    "id": "topic14_1",
+                    "display_name": {
+                        "english": "CLASSIFICATION OF MATERIALS",
+                        "hindi": "पदार्थों का वर्गीकरण"
+                    },
+                    "article_range": "Sections 14.2",
+                    "concepts": [
+                        {
+                            "id": "concept14_1_1",
+                            "display_name": {
+                                "english": "Conductors, Insulators, Semiconductors",
+                                "hindi": "चालक, विद्युतरोधी, अर्धचालक"
+                            },
+                            "description": {
+                                "english": "Metals: ρ ∼ 10⁻² to 10⁻⁸ Ωm\nInsulators: ρ ∼ 10¹¹ to 10¹⁹ Ωm\nSemiconductors: ρ ∼ 10⁻⁵ to 10⁶ Ωm\nExamples: Si, Ge (elemental), GaAs (compound)",
+                                "hindi": "धातु: ρ ∼ 10⁻² से 10⁻⁸ Ωm\nविद्युतरोधी: ρ ∼ 10¹¹ से 10¹⁹ Ωm\nअर्धचालक: ρ ∼ 10⁻⁵ से 10⁶ Ωm\nउदाहरण: Si, Ge (तात्विक), GaAs (यौगिक)"
+                            }
+                        },
+                        {
+                            "id": "concept14_1_2",
+                            "display_name": {
+                                "english": "Energy Band Theory",
+                                "hindi": "ऊर्जा बैंड सिद्धांत"
+                            },
+                            "description": {
+                                "english": "Valence band: Highest occupied band\nConduction band: Next allowed band\nBand gap E_g: Between valence and conduction\nMetals: E_g = 0 or overlapping\nInsulators: E_g > 3 eV\nSemiconductors: E_g < 3 eV",
+                                "hindi": "संयोजकता बैंड: उच्चतम भरा बैंड\nचालन बैंड: अगला अनुमत बैंड\nबैंड अंतराल E_g: संयोजकता एवं चालन के मध्य\nधातु: E_g = 0 या अतिव्यापन\nविद्युतरोधी: E_g > 3 eV\nअर्धचालक: E_g < 3 eV"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "topic14_2",
+                    "display_name": {
+                        "english": "INTRINSIC AND EXTRINSIC SEMICONDUCTORS",
+                        "hindi": "नैज एवं बाह्य अर्धचालक"
+                    },
+                    "article_range": "Sections 14.3-14.4",
+                    "concepts": [
+                        {
+                            "id": "concept14_2_1",
+                            "display_name": {
+                                "english": "Intrinsic Semiconductor",
+                                "hindi": "नैज अर्धचालक"
+                            },
+                            "description": {
+                                "english": "Pure semiconductor\nn_e = n_h = n_i (intrinsic concentration)\nElectron-hole pairs created by thermal energy\nRecombination: e⁻ + hole → energy\nConduction by both electrons and holes",
+                                "hindi": "शुद्ध अर्धचालक\nn_e = n_h = n_i (नैज सांद्रता)\nतापीय ऊर्जा से इलेक्ट्रॉन-होल युग्म बनते हैं\nपुनर्संयोजन: e⁻ + होल → ऊर्जा\nइलेक्ट्रॉन एवं होल दोनों से चालन"
+                            }
+                        },
+                        {
+                            "id": "concept14_2_2",
+                            "display_name": {
+                                "english": "n-type Semiconductor",
+                                "hindi": "n-प्रकार अर्धचालक"
+                            },
+                            "description": {
+                                "english": "Doped with pentavalent atoms (P, As, Sb)\nDonor impurities → extra electrons\nMajority carriers: electrons\nn_e >> n_h\nDonor energy level near conduction band",
+                                "hindi": "पंचसंयोजी परमाणुओं से अपमिश्रित (P, As, Sb)\nदाता अशुद्धियाँ → अतिरिक्त इलेक्ट्रॉन\nबहुसंख्यक वाहक: इलेक्ट्रॉन\nn_e >> n_h\nदाता ऊर्जा स्तर चालन बैंड के पास"
+                            }
+                        },
+                        {
+                            "id": "concept14_2_3",
+                            "display_name": {
+                                "english": "p-type Semiconductor",
+                                "hindi": "p-प्रकार अर्धचालक"
+                            },
+                            "description": {
+                                "english": "Doped with trivalent atoms (B, Al, In)\nAcceptor impurities → holes\nMajority carriers: holes\nn_h >> n_e\nAcceptor level near valence band",
+                                "hindi": "त्रिसंयोजी परमाणुओं से अपमिश्रित (B, Al, In)\nग्राही अशुद्धियाँ → होल\nबहुसंख्यक वाहक: होल\nn_h >> n_e\nग्राही स्तर संयोजकता बैंड के पास"
+                            }
+                        },
+                        {
+                            "id": "concept14_2_4",
+                            "display_name": {
+                                "english": "Mass Action Law",
+                                "hindi": "द्रव्य अनुपाती क्रिया का नियम"
+                            },
+                            "description": {
+                                "english": "n_e n_h = n_i²\nIn n-type: n_e ≈ N_D, n_h = n_i²/N_D\nIn p-type: n_h ≈ N_A, n_e = n_i²/N_A\nN_D, N_A = donor, acceptor concentrations",
+                                "hindi": "n_e n_h = n_i²\nn-प्रकार में: n_e ≈ N_D, n_h = n_i²/N_D\np-प्रकार में: n_h ≈ N_A, n_e = n_i²/N_A\nN_D, N_A = दाता, ग्राही सांद्रताएँ"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "topic14_3",
+                    "display_name": {
+                        "english": "p-n JUNCTION DIODE",
+                        "hindi": "p-n संधि डायोड"
+                    },
+                    "article_range": "Sections 14.5-14.6",
+                    "concepts": [
+                        {
+                            "id": "concept14_3_1",
+                            "display_name": {
+                                "english": "Junction Formation",
+                                "hindi": "संधि निर्माण"
+                            },
+                            "description": {
+                                "english": "Diffusion: e⁻ (n→p), holes (p→n)\nDepletion region: Immobile ions\nBuilt-in potential V₀ (barrier)\nDrift current opposes diffusion\nAt equilibrium: No net current",
+                                "hindi": "विसरण: e⁻ (n→p), होल (p→n)\nअवक्षय क्षेत्र: अगतिशील आयन\nअंतर्निहित विभव V₀ (बैरियर)\nअपवाह धारा विसरण का विरोध करती है\nसाम्यावस्था पर: कोई नेट धारा नहीं"
+                            }
+                        },
+                        {
+                            "id": "concept14_3_2",
+                            "display_name": {
+                                "english": "Forward Bias",
+                                "hindi": "अग्र अभिनति"
+                            },
+                            "description": {
+                                "english": "p to +ve, n to -ve\nBarrier height decreases\nDepletion width decreases\nMajority carrier injection\nLarge current (mA)\nV_th (Si ≈ 0.7V, Ge ≈ 0.3V)",
+                                "hindi": "p धन से, n ऋण से जुड़ा\nबैरियर ऊँचाई घटती है\nअवक्षय चौड़ाई घटती है\nबहुसंख्यक वाहक अन्तःक्षेप\nअधिक धारा (mA)\nV_th (Si ≈ 0.7V, Ge ≈ 0.3V)"
+                            }
+                        },
+                        {
+                            "id": "concept14_3_3",
+                            "display_name": {
+                                "english": "Reverse Bias",
+                                "hindi": "पश्च अभिनति"
+                            },
+                            "description": {
+                                "english": "p to -ve, n to +ve\nBarrier height increases\nDepletion width increases\nMinority carrier drift\nSmall current (μA) - reverse saturation\nBreakdown at high V",
+                                "hindi": "p ऋण से, n धन से जुड़ा\nबैरियर ऊँचाई बढ़ती है\nअवक्षय चौड़ाई बढ़ती है\nअल्पसंख्यक वाहक अपवाह\nअल्प धारा (μA) - पश्च संतृप्ति धारा\nउच्च V पर भंजन"
+                            }
+                        },
+                        {
+                            "id": "concept14_3_4",
+                            "display_name": {
+                                "english": "V-I Characteristics",
+                                "hindi": "V-I अभिलक्षण"
+                            },
+                            "description": {
+                                "english": "Forward: Exponential increase after knee voltage\nReverse: Very small constant current\nBreakdown: Sudden large current at V_br\nDynamic resistance r_d = ΔV/ΔI\nRectification: AC → DC",
+                                "hindi": "अग्र: नी वोल्टता के बाद घातांकीय वृद्धि\nपश्च: बहुत कम स्थिर धारा\nभंजन: V_br पर अचानक अधिक धारा\nगतिक प्रतिरोध r_d = ΔV/ΔI\nदिष्टकारण: AC → DC"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "topic14_4",
+                    "display_name": {
+                        "english": "APPLICATIONS OF DIODE",
+                        "hindi": "डायोड के अनुप्रयोग"
+                    },
+                    "article_range": "Section 14.7",
+                    "concepts": [
+                        {
+                            "id": "concept14_4_1",
+                            "display_name": {
+                                "english": "Half Wave Rectifier",
+                                "hindi": "अर्ध तरंग दिष्टकारी"
+                            },
+                            "description": {
+                                "english": "Conducts only during one half cycle\nOutput: Pulsating DC\nFrequency = input frequency\nEfficiency: η = 40.6%\nRipple factor: γ = 1.21",
+                                "hindi": "केवल एक अर्ध चक्र में चालन\nनिर्गत: स्पंदित DC\nआवृत्ति = निवेशी आवृत्ति\nदक्षता: η = 40.6%\nउर्मिका गुणांक: γ = 1.21"
+                            }
+                        },
+                        {
+                            "id": "concept14_4_2",
+                            "display_name": {
+                                "english": "Full Wave Rectifier",
+                                "hindi": "पूर्ण तरंग दिष्टकारी"
+                            },
+                            "description": {
+                                "english": "Conducts in both half cycles\nCentre-tap transformer or bridge rectifier\nOutput frequency = 2 × input frequency\nEfficiency: η = 81.2%\nRipple factor: γ = 0.48\nFilter (capacitor) smoothens output",
+                                "hindi": "दोनों अर्ध चक्रों में चालन\nकेंद्र-टैप ट्रांसफॉर्मर या सेतु दिष्टकारी\nनिर्गत आवृत्ति = 2 × निवेशी आवृत्ति\nदक्षता: η = 81.2%\nउर्मिका गुणांक: γ = 0.48\nफिल्टर (संधारित्र) निर्गत को समतल करता है"
+                            }
+                        }
+                    ]
+                }
+            ]
         }
+        # add here
         
     ]
 }
